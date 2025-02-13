@@ -162,3 +162,15 @@ body .greeting {
   white-space: normal;
   margin-top: 10px;
 }
+<style>
+  .highlight {
+    background-color: yellow;
+    padding: 2px;
+  }
+</style>
+
+<p class="message">
+  Cupid called—he said you’re due for some extra love today! <br> 
+  Happy Valentine’s! <br> 
+  <strong><span class="highlight">Mc Kenlee Bills 🫶</span></strong>
+</p>
