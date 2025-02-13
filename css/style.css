@@ -137,3 +137,11 @@ body .greeting .s.space {
 body .greeting .s.squeeze {
   margin-left: -2px;
 }
+.message {
+  display: block;
+  max-width: 90%; /* Keeps the text within screen width */
+  margin: 10px auto;
+  text-align: center;
+  font-size: clamp(14px, 3vw, 20px); /* Adjusts size based on screen width */
+  line-height: 1.5;
+}
