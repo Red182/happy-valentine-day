@@ -137,11 +137,28 @@ body .greeting .s.space {
 body .greeting .s.squeeze {
   margin-left: -2px;
 }
+body .greeting {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;  
+  min-height: 100vh; /* Ensure it takes full viewport height */
+  text-align: center;
+  flex-direction: column;
+}
+
+.greeting div {
+  max-width: 90%;
+  padding: 20px;
+}
+
 .message {
   display: block;
-  max-width: 90%; /* Keeps the text within screen width */
-  margin: 10px auto;
-  text-align: center;
-  font-size: clamp(14px, 3vw, 20px); /* Adjusts size based on screen width */
+  width: 100%;
+  max-width: 90%;
+  font-size: clamp(14px, 3vw, 20px);
   line-height: 1.5;
+  word-wrap: break-word;
+  white-space: normal;
+  margin-top: 10px;
 }
