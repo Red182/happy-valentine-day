@@ -137,3 +137,10 @@ body .greeting .s.space {
 body .greeting .s.squeeze {
   margin-left: -2px;
 }
+.valentine-message {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e60073; /* Pinkish Red */
+  text-align: center;
+  margin-top: 20px;
+}
